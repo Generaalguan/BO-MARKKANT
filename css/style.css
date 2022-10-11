@@ -1,12 +1,170 @@
-*, *::before, *::after {
+a, *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #2193b0;
 }
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  background: #DFD3C3;
+  overflow-x: hidden;
+}
+
+.btn {
+  color: white;
+  border: none;
+  background: #2193b0;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 8rem;
+}
+.btn__link {
+  color: white;
+}
+.btn:hover {
+  background: #35663e;
+  transition: 2s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar__menu {
+  display: flex;
+  padding: 2rem;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 1rem;
+  left: 10rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  flex-wrap: wrap;
+  position: relative;
+  top: 4rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 5rem;
+  top: 1rem;
+  gap: 2rem;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.header__article {
+  position: relative;
+  left: 5rem;
+}
+
+.header__h1 {
+  color: #2193b0;
+  font-size: 200%;
+}
+
+.header__h2 {
+  color: red;
+}
+
+.heading__p {
+  width: 40ch;
+  position: relative;
+}
+
+.btn__header {
+  position: relative;
+  top: 2rem;
+}
+
+.header_section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: 40rem;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.div__img {
+  position: relative;
+  left: 10rem;
+  width: 80%;
+  height: 80%;
+}
+
+.header3__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.over__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  height: 20%;
+}
+
+.over__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+.over__listitem {
+  list-style: none;
+  color: white;
+  width: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.over__p {
+  width: 30ch;
+  text-align: center;
+}
+
+.over__icon {
+  font-size: 180%;
+  padding: 2rem;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
