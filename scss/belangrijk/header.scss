@@ -34,7 +34,7 @@
                 border: none;
                 border-radius: 0.5rem;
                 color: black;
-                background: rgb(226, 56, 0);
+                background: rgb(0, 110, 255);
             
                 &:hover{
                     background: rgb(240, 9, 144);
@@ -44,6 +44,9 @@
                 
                 .bt-a{
                     color: black;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight:700;
+                    
             
                     &:hover{
                         color: white;

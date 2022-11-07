@@ -9,10 +9,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@400;500;600&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&family=Roboto:ital@1&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a8c080a66a.js" crossorigin="anonymous"></script>
   <script src="js/main.js" defer></script>
-  <link rel="stylesheet" href="../css/style.css" />
-
+  <link rel="stylesheet" href="../css/style.css">
   <title>Markant</title>
 </head>
 
@@ -20,13 +22,15 @@
   <!-- Navbar Section -->
   <header class="navbar">
     <ul class="navbar__menu">
-      <li class="navbar__menu--links"><a class="navbar__menu--links" href="../index.html">Home</a></li>
+      <a href="../index.html"><img class="logo_navbar_img" src="../img/markant.webp" alt=""></a>
+      <div class="div_nav_list">
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="overmarkant.html">Over Markant</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="agenda.html">Agenda</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="nieuws.html">Nieuws</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="vrijwillegers.html">Vrijwillgerswerk</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="contact.html">Contact</a></li>
-      <li class="navbar__menu--recht"><button class="btn"><a class="bt-a" href="inlog.html">login</a></button></li>
+      <button class="btn"><a class="bt-a" href="inlog.html">login</a></button>
+      </div>
     </ul>
   </header>
 
@@ -35,11 +39,62 @@
   <main class="main_contact">
 
     <section class="section_contact">
-       <img src="https://www.markant.org/assets/2021/02/cropped-MAR_LinkedIn_Connie_LR_banner.jpg" class="contact-first-pg-image" alt="">
+       <img class="contact-first-pg-image" src="https://img.freepik.com/free-photo/close-up-portrait-attractive-young-woman-isolated_273609-36519.jpg?w=1060&t=st=1667820927~exp=1667821527~hmac=1752f94a12502a2319df5e65ffd2507a9d6714d5972eaee3b88ba662583efd80" alt="">
     </section>
+
+
     <section class="contact_section-info">
-      
+      <article class="article_contact">
+        <div class="info_contact">
+          <h1>Contact</h1>
+          <p>Bezoekadres: Zwanenburgwal 206 (3e etage), 1011 JH in Amsterdam</p>
+          <p>Bereikbaarheid: Wij zijn bereikbaar op werkdagen van 8.30 tot 17.00 uur.</p>
+          <h5>Telefoon: 020 886 88 00</h5>
+          <p>E-mail: info@markant.org  maar we hebben liever dat je onderstaande formulier gebruikt.</p>
+        </div>
+        <div class="gegevens_contact_invullen">
+          <p>Naam:</p>
+          <input  class="input_contact" type="text" required>
+          <p>Tussenvoegsel:</p>
+          <input  class="input_contact" type="text" required>
+          <p>Achternaam:</p>
+          <input  class="input_contact" type="text" required>
+          <p>Email:</p>
+          <input  class="input_contact" type="email" name="email" required>
+          <p>Telefoon:</p>
+          <input  class="input_contact" type="text" required>
+          <p>registrieren op:</p>
+          <select class="selecteer" name="selecteer" id="selecteer">
+            <option class="option_selecteer" value="Mantelzorg">Mantelzorg</option>
+            <option class="option_selecteer" value="Zorgvrager">Zorgvrager</option>
+            <option class="option_selecteer" value="vrijwiiliger">vrijwiiliger</option>
+            <option class="option_selecteer" value="bedrijf of organisatie">bedrijf of organisatie</option>
+            <option class="option_selecteer" value="geen van deze opties">geen van deze opties</option>
+          </select>
+          <button type="submit" class="submit">Verzend</button>
+        </div>
+      </article>
     </section>
   </main>
+
+  <footer class="footer">
+    <section class="section_footer">
+        <li class="li_footer">Home</li>
+        <li class="li_footer">Over Markant</li>
+        <li class="li_footer">Agenda</li>
+        <li class="li_footer">Nieuws</li>
+        <li class="li_footer">vrijwillegerswerk</li>
+        <li class="li_footer">Contact</li>
+    </section>
+    
+    <section class="section2_footer">
+      <i class="fa-brands fa-twitter footer-icon-color"></i>
+      <i class="fa-brands fa-linkedin footer-icon-color"></i>
+      <i class="fa-brands fa-facebook footer-icon-color"></i>
+    </section>
+    <section class="section3_authour_footer">
+      <p>© 2022 Markant, Centrum voor Mantelzorg</p>
+    </section>
+  </footer>
   </body>
   </html>

@@ -9,10 +9,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@300;400;700&family=Poppins:wght@400;500;600&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&family=Roboto:ital@1&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a8c080a66a.js" crossorigin="anonymous"></script>
   <script src="js/main.js" defer></script>
-  <link rel="stylesheet" href="../css/style.css" />
-
+  <link rel="stylesheet" href="../css/style.css">
   <title>Markant</title>
 </head>
 
@@ -20,13 +22,15 @@
   <!-- Navbar Section -->
   <header class="navbar">
     <ul class="navbar__menu">
-      <li class="navbar__menu--links"><a class="navbar__menu--links" href="../index.html">Home</a></li>
+      <a href="../index.html"><img class="logo_navbar_img" src="../img/markant.webp" alt=""></a>
+      <div class="div_nav_list">
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="overmarkant.html">Over Markant</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="agenda.html">Agenda</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="nieuws.html">Nieuws</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="vrijwillegers.html">Vrijwillgerswerk</a></li>
       <li class="navbar__menu--links"><a class="navbar__menu--links" href="contact.html">Contact</a></li>
-      <li class="navbar__menu--recht"><button class="btn"><a class="bt-a" href="inlog.html">login</a></button></li>
+      <button class="btn"><a class="bt-a" href="inlog.html">login</a></button>
+      </div>
     </ul>
   </header>
 
@@ -37,7 +41,7 @@
             <article class="article_about">
                 <div class="div_about">
                     <h1 class="h1_about">Wie zijn wij?</h1>
-                    <p>
+                    <p class="p_about">
                         Our story begins in 1971 along the cobblestone streets of Seattle’s historic
                         Pike Place Market. It was here where Starbucks opened its first store, offering
                         fresh-roasted coffee beans, tea and spices from around the world for our customers
@@ -48,7 +52,7 @@
                 </div>
                 <div class="div_about">
                     <h2 class="h2_about">Koptekst</h2>
-                    <p>
+                    <p class="p_about">
                         Ten years later, a young New Yorker named Howard Schultz would walk through these
                         doors and become captivated with Starbucks coffee from his first sip. After joining
                         the company in 1982, a different cobblestone road would lead him to another discovery.
@@ -57,7 +61,7 @@
                         culture to Starbucks. By 1987, we swapped our brown aprons for green ones and embarked
                         on our next chapter as a coffeehouse.
                     </p>
-                    <p>
+                    <p class="p_about">
                         Starbucks would soon expand to Chicago and Vancouver, Canada and then on to California,
                         Washington, D.C. and New York. By 1996, we would cross the Pacific to open our first
                         store in Japan, followed by Europe in 1998 and China in 1999. Over the next two decades,
@@ -70,14 +74,14 @@
                 </div>
                 <div class="div_about">
                     <h2 class="h2_about">Coffee & Craft</h2>
-                    <p>
+                    <p class="p_about">
                         It takes many hands to craft the perfect cup of coffee – from the farmers who tend to
                         the red-ripe coffee cherries, to the master roasters who coax the best from every bean,
                         and to the barista who serves it with care. We are committed to the highest standards
                         of quality and service, embracing our heritage while innovating to create new experiences
                         to savor.
                     </p>
-                    <p>
+                    <p class="p_about">
                         It takes many hands to craft the perfect cup of coffee – from the farmers who tend to
                         the red-ripe coffee cherries, to the master roasters who coax the best from every bean,
                         and to the barista who serves it with care. We are committed to the highest standards
@@ -90,4 +94,24 @@
     <!-- About Einde -->
         </main>
 
+        <footer class="footer">
+            <section class="section_footer">
+                <li class="li_footer">Home</li>
+                <li class="li_footer">Over Markant</li>
+                <li class="li_footer">Agenda</li>
+                <li class="li_footer">Nieuws</li>
+                <li class="li_footer">vrijwillegerswerk</li>
+                <li class="li_footer">Contact</li>
+            </section>
+            
+            <section class="section2_footer">
+              <i class="fa-brands fa-twitter footer-icon-color"></i>
+              <i class="fa-brands fa-linkedin footer-icon-color"></i>
+              <i class="fa-brands fa-facebook footer-icon-color"></i>
+            </section>
+            <section class="section3_authour_footer">
+              <p>© 2022 Markant, Centrum voor Mantelzorg</p>
+            </section>
+          </footer>
   </body>
+  </html>

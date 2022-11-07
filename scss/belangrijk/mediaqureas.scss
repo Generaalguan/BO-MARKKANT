@@ -79,6 +79,62 @@
     }
 }
 
+
+// news
+
+.article__sec{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .div__sec{
+        position: relative;
+        left: 0rem;
+        flex-wrap: wrap;
+    }
+}
+
+.article_featured{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// agenda
+
+.article__agenda{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 2.5rem;
+}
+
+.div_agenda{
+    display: flex;
+    flex-direction: column;
+}
+
+// overmarkant
+
+.article_about{
+    display: flex;
+    flex-direction: column;
+
+    .div_about{
+        display: flex;
+        width: 40rem;
+        .p_about{
+            width: 40rem;
+        }
+
+        .img_about{
+            max-width: 40rem;
+            height: 40rem;
+        }
+    }
+}
+
+// footer
+
 .footer{
     display: flex;
     flex-wrap: wrap;

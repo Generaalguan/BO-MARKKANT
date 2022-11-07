@@ -27,10 +27,12 @@
     justify-content: center;
 }
 
+
 .li_footer:hover{
     color: rgb(208, 8, 248);
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: underline;
 }
 
 .footer-icon-color{

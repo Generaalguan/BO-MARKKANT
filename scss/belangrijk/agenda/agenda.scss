@@ -1,0 +1,81 @@
+.main__agenda{
+
+.foto_agenda{
+    width: 100%;
+    height: 62rem;
+    object-fit: cover;
+}
+
+.section__agenda{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10rem;
+    gap: 2rem;
+    padding: 10rem 0rem;
+
+    
+    .paragraph{
+        width: 60%;
+    }
+    .h5_paragraph{
+        width: 60%;
+    }
+
+    .article__agenda{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 4rem;
+
+
+        .div_agenda{
+            display: flex;
+            gap: 4rem;
+            padding:2rem;
+            min-height: 30rem;
+            cursor: pointer;
+            
+
+            .div_image_agenda{
+                
+
+                .img__agenda{
+                    max-width: 40rem;
+                    max-height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .div__text__agenda{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                
+                
+
+                .buutton_angenda{
+                    width: 14rem;
+                    height: 4rem;
+                    background: rgb(7, 219, 7);
+                    color: black;
+                    border-radius: 0.5rem;
+                    border: none;
+                    box-shadow: 0.5rem 0.5rem 1rem 1rem rgba(0,0,0,0.1);
+                    cursor: pointer;
+
+                    &:hover{
+                        box-shadow: 0.5rem 0.5rem 1rem 1rem rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+    }
+    
+        
+
+}
+
+}
