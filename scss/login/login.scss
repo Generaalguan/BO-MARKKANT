@@ -1,3 +1,5 @@
+@use'../abstract/colors.scss';
+
 .login{
     display: flex;
     flex-direction: column;
@@ -26,13 +28,7 @@
     height: 3rem;
 }
 
-.login_button{
-    width: 8rem;
-    height: 4rem;
-    border: none;
-    border-radius: 0.5rem;
-    background: blueviolet;
-}
+
 
 .div-naastelkaar-login{
     display: flex;

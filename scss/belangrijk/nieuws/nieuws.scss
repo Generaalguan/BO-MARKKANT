@@ -1,4 +1,4 @@
-
+@use'../../abstract/colors.scss';
 
     .news{
         display: flex;
@@ -84,11 +84,19 @@
                 gap: 1rem;
                 width: 100%;
                 flex-wrap: wrap;
+                position: relative;
+                min-height: 35rem;
 
                 .card__p{
                     width: 35ch;
                 }
                 
+            }
+
+            .card__btn{
+                position: absolute;
+                right: 0;
+                bottom: 0;
             }
 
         }
@@ -121,7 +129,7 @@
         .div__sec{
             display: flex;
             flex-direction: column;
-            background: rgb(17, 219, 17);
+            background: colors.$main-color;
             height: 30rem;
             padding: 2rem;
             gap: 1rem;
@@ -162,7 +170,7 @@
         box-shadow: 0.5rem 0.5rem 1rem 0.1rem rgba(0, 0, 0, 0.5);
         border-radius: 1rem;
         &:hover{
-            box-shadow: 0.5rem 0.5rem 1rem 1rem rgba(22, 210, 72, 0.5);
+            box-shadow: 0.5rem 0.5rem 1rem 1rem colors.$main-color;
         }
 
         img{

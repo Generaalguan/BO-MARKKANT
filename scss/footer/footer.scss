@@ -1,7 +1,9 @@
+@use'../abstract/colors.scss';
+
 .footer{
     display: flex;
     align-items: center;
-    background-color: rgb(64, 237, 38);
+    background-color: colors.$main-color;
     padding: 4rem;
     justify-content: center;
 
